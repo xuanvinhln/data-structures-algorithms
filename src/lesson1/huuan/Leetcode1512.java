@@ -24,6 +24,9 @@ public class Leetcode1512 {
     }
 
     private int calculateCombination(int k, int n) {
+        if (n == k){
+            return 1;
+        }
         int numerator = 1;
         for (int i = n - k + 1; i < n + 1; i++) {
             numerator *= i;
