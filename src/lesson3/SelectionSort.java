@@ -1,10 +1,8 @@
 package lesson3;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Comparator;
 
-public class IntroSort {
+public class SelectionSort {
     public static void main(String[] args) {
         int[] array = {1, 5, 7, 9, 8, 10, 8, 7, 10, 8, 4, 2, 1};
         selectionSort(array);
